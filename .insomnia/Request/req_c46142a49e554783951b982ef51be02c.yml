@@ -1,0 +1,34 @@
+_id: req_c46142a49e554783951b982ef51be02c
+type: Request
+parentId: fld_592465141aa54e71af1ee0f913911262
+modified: 1661610308812
+created: 1656002113530
+url: http://localhost:8081/judge
+name: MLE test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"code": "import java.util.*;import java.io.*;import java.util.regex.*;public class A {public static void main(String args[]) {int n = 1_000_000_00;int a[] = new int[n*10];}}",
+    	"compiler": "JAVA11",
+    	"contest_id": "1571",
+    	"problem_index": "A",
+    	"testCases": 1,
+    	"timeLimit": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7a95d0bbdfcd488181a1d48a6cd385c0
+authentication: {}
+metaSortKey: -1655999636489
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

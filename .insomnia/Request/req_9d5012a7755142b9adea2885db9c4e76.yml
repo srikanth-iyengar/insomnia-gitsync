@@ -1,0 +1,32 @@
+_id: req_9d5012a7755142b9adea2885db9c4e76
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1659606414575
+created: 1657214627673
+url: http://localhost:8084/upload-test-cases?contestId=cefba1f0-fea1-11ec-8993-ed1c72039e8d&problemId=0a7f6c10-fea3-11ec-8993-ed1c72039e8d
+name: upload testcase
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c7f3cd1d3f8645c89f9e5826ffe227a2
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Dell\Desktop\MyFolders\tests\tests.zip
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_f6b49dbbd9b24ca68b80de3e0ca33592
+authentication: {}
+metaSortKey: -1657214627673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

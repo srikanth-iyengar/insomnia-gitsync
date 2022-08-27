@@ -1,0 +1,34 @@
+_id: req_db147a15e4e44fca9a972d3d01c69b8a
+type: Request
+parentId: fld_592465141aa54e71af1ee0f913911262
+modified: 1659345186294
+created: 1655999636339
+url: http://localhost:8081/judge
+name: TLE test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"code": "import java.util.*; public class Main { public static void main(String args[]) {while(true);}}",
+    	"compiler": "JAVA11",
+    	"contest_id": "1571",
+    	"problem_index": "A",
+    	"testCases": 1,
+    	"timeLimit": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d8fdb082a5754d47a862e48007031aca
+authentication: {}
+metaSortKey: -1655999636339
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

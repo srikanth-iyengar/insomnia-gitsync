@@ -1,0 +1,32 @@
+_id: req_7fe6655352a847349ce5df59cb2c97c6
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1661609475082
+created: 1656951958894
+url: http://localhost:8084/create-contest
+name: Create Contest
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contestName":"Test0",
+    	"startTime":"2022-08-27T17:03:00",
+    	"endTime":"2022-08-27T17:05:00",
+    	"username":"Srikanth1757"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fce1d892bc4e4f3d8560cede3212d837
+authentication: {}
+metaSortKey: -1656951958894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

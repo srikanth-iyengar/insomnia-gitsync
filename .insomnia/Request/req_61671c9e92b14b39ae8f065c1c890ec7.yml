@@ -1,0 +1,31 @@
+_id: req_61671c9e92b14b39ae8f065c1c890ec7
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1661610299130
+created: 1657093233674
+url: http://localhost:8081/run
+name: Run Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"code": "import java.io.*; public class Main { public static void main(String args[]) { System.out.println(\"Hello World\");}}",
+    	"compiler": "JAVA11",
+    	"input":"hello"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f5c1307d146e463db2e6a68d3d35714e
+authentication: {}
+metaSortKey: -1657093233674
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_ff867cf5b87248dd9f544665fc76e452
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1657271435899
+created: 1657270666360
+url: http://localhost:8084/delete-test-cases?problemId=lezgo&contestId=1571
+name: Delete Testcase
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657270666363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_652cd31fc0674d7cb9a69ed9d9d5830a
+type: Request
+parentId: fld_592465141aa54e71af1ee0f913911262
+modified: 1661610307645
+created: 1655906409881
+url: http://localhost:8081/judge
+name: Java Test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"code": "import java.io.*; public class Main { public static void main(String args[]) { System.out.println(\"Judgement Wrong Answer\"); }}",
+    	"compiler": "JAVA11",
+    	"contestId": "1571",
+    	"problemId": "A",
+    	"testCases": 1
+    }
+parameters: []
+headers:
+  - id: pair_ee477b51e2a14d539f2ea8e67a145a17
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1655999636539
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

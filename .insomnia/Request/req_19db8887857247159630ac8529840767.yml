@@ -1,0 +1,38 @@
+_id: req_19db8887857247159630ac8529840767
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1659607086489
+created: 1657029613094
+url: http://localhost:8083/problems-and-contest/reschedule-contest
+name: Reschedule Contest
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "d930bd00-fc61-11ec-9c10-affb1f50757b",
+    	"startTime": "2022-07-05T06:32:22",
+    	"endTime":   "2022-07-05T10:32:22"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a4b89d5777584d14b301675772897334
+    disabled: false
+  - id: pair_4f9a8e70d9b54b07a0498e0b05e41b4f
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTcmlrYW50aDE3NTciLCJyb2xlcyI6WyJVU0VSIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NTk2MDg5MDl9.V7Mf8y8--e7Ql_rVTmGV-PtXM0BD5TH4cououPy1tibJye5gYTunodht_TOfNs1IqMgnTLm9OU1tb72sjdUPYQ
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1657029613094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

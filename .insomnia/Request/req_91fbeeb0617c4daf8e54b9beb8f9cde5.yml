@@ -1,0 +1,28 @@
+_id: req_91fbeeb0617c4daf8e54b9beb8f9cde5
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1661610432287
+created: 1657551315023
+url: http://leetcode.com/graphql
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/graphql
+  text: '{"query":"query questionData($titleSlug: String!)
+    {\n    question(titleSlug: $titleSlug) {\n        codeSnippets
+    {\n            lang\n            langSlug\n            code\n            __typename\n        }\n        hints\n        exampleTestcases\n        sampleTestCase\n    }\n}","variables":{"titleSlug":"find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance"},"operationName":"questionData"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f93c5e5bc90c450ead018ec55d4c9bd0
+authentication: {}
+metaSortKey: -1657551315023
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

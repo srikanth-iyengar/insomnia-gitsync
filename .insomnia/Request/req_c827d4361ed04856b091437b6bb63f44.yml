@@ -1,0 +1,34 @@
+_id: req_c827d4361ed04856b091437b6bb63f44
+type: Request
+parentId: fld_592465141aa54e71af1ee0f913911262
+modified: 1661610310160
+created: 1655918241712
+url: http://localhost:8081/judge
+name: CPP Test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"code": "#include <bits/stdc++.h> \nusing namespace std;\n int main() { while(1){} cout << \"Judgement Wrong Answer\" << endl; return 0;}",
+    	"compiler": "CPP11",
+    	"contest_id": "1571",
+    	"problem_index": "A",
+    	"testCases": 1,
+    	"timeLimit": 10
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5d21a24ead294e6aae26e297c5b7af74
+authentication: {}
+metaSortKey: -1655999636439
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

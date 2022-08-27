@@ -1,0 +1,35 @@
+_id: req_c4915166021f40d6bf221438ac4a1c02
+type: Request
+parentId: fld_5a7a37fea1054b17920036a44ee235ad
+modified: 1659353317828
+created: 1657100205701
+url: http://localhost:8082/submit-code
+name: Submit Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"contestId": "cefba1f0-fea1-11ec-8993-ed1c72039e8d",
+    	"key": {
+    		"username": "Srikanth1757"
+    	},
+    	"language": "JAVA11",
+    	"problemId": "0a7f6c10-fea3-11ec-8993-ed1c72039e8d",
+    	"code": "import java.io.*; public class Main { public static void main(String args[]) { System.out.println(\"Hello World\"); }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_60e30e5b84654ccc84532732596528c2
+authentication: {}
+metaSortKey: -1657100205701
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

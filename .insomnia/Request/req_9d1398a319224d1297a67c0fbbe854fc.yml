@@ -1,0 +1,34 @@
+_id: req_9d1398a319224d1297a67c0fbbe854fc
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1659352944650
+created: 1657855584595
+url: http://srikanth-airline-reservation.herokuapp.com/user/register
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName": "Srikanth",
+    	"lastName": "Iyengar",
+    	"password": "1234",
+    	"email": "ksrikanth3012@gmail.com",
+    	"gender": "M",
+    	"phoneNo": "9653233005"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9a6b76e641a84dc9b2f3bd0c9b4dcc35
+authentication: {}
+metaSortKey: -1657855584595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

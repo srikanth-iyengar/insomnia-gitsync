@@ -1,0 +1,31 @@
+_id: req_44ae09ffb21241279e687d567274f09e
+type: Request
+parentId: fld_592465141aa54e71af1ee0f913911262
+modified: 1659345183684
+created: 1655967788094
+url: http://localhost:8081/run
+name: Java WA
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"code": "import java.util.*; public class Main { public static void main(String args[]) throws Exception { System.out.println(\"I am Srikanth\"); }}",
+    	"compiler": "JAVA11",
+    	"input":"hwllo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_115aeb1ce3394d65a1112b07b0784756
+authentication: {}
+metaSortKey: -1655999636389
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

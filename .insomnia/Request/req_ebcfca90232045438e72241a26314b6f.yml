@@ -1,0 +1,33 @@
+_id: req_ebcfca90232045438e72241a26314b6f
+type: Request
+parentId: fld_ff8d2bb0ee1a4903ae634dc0c191688c
+modified: 1661610302344
+created: 1656676912532
+url: http://localhost:8083/register
+name: Register User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username":"Srikanth17571",
+        "password":"1234",
+        "firstName":"Srikanth",
+        "lastName":"Iyengar",
+        "emailId":"ksrikanth2002112@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cb79fee8c59b4f02bf49a10c9ee33f82
+authentication: {}
+metaSortKey: -1656179829350
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

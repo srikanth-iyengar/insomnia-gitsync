@@ -1,0 +1,30 @@
+_id: req_1727c14faf3c46389c9ee91fa444b2c7
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1659547723079
+created: 1659352873118
+url: http://localhost:8082/update-submission
+name: New Request
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"token": "3f3106152fc14102b5475d88de7f9bb1",
+    	"verdict": "IGNORED"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eefab68b5da54b8fb018d253a96f1ee8
+authentication: {}
+metaSortKey: -1659352873118
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

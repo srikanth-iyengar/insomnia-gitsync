@@ -1,0 +1,21 @@
+_id: req_2fa7e1fdf6c6436abc995305893985db
+type: Request
+parentId: fld_5a7a37fea1054b17920036a44ee235ad
+modified: 1659351835062
+created: 1657128970169
+url: http://localhost:8082/get-submissions/Srikanth1757
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657128970169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

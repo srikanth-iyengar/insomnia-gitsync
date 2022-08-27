@@ -1,0 +1,34 @@
+_id: req_3d8e57a1d5d84e09b37cd00db3982209
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1657855580064
+created: 1657560198435
+url: http://leetcode.com/graphql
+name: leetcode
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"variables": {
+    		"titleSlug": "longest-palindromic-substring"
+    	},
+    	"query": "query questionData($titleSlug: String!) { question(titleSlug: $titleSlug) { codeSnippets { lang langSlug code __typename } hints exampleTestcases sampleTestCase } }"
+    }
+parameters: []
+headers:
+  - id: pair_45099174df6f4877a3eedaeec3e1d7f3
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1657560198435
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: false
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_f5bc16ea9d1b4f6e9938e12daa533b0c
+type: Request
+parentId: fld_ff8d2bb0ee1a4903ae634dc0c191688c
+modified: 1661610300753
+created: 1656676925979
+url: http://localhost:8083/authenticate
+name: Authenticate User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username":"Srikanth1757",
+        "password":"1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_884207b0996c40e086304f40dafd5d58
+authentication: {}
+metaSortKey: -1656179829400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

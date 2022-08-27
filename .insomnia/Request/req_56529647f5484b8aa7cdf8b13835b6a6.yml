@@ -1,0 +1,40 @@
+_id: req_56529647f5484b8aa7cdf8b13835b6a6
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1661610449709
+created: 1657273695139
+url: http://localhost:8083/problems-and-contest/update-problem
+name: Update Problem
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"problemId":"0a7f6c10-fea3-11ec-8993-ed1c72039e8d",
+    	"memoryLimit": "128",
+    	"problemStatement": "Write a program that outputs hello world without quotes",
+    	"timeLimit": "2",
+    	"problemName": "alice and bob2",
+    	"testCases": 10
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5619ec9268d84a4d9fcf53cbd1a78e87
+  - id: pair_6b6e309cd2894c5098020b086dc0df93
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTcmlrYW50aDE3NTciLCJyb2xlcyI6WyJVU0VSIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE1MTU1Mjd9.wfw6OEK2ZNwkNWc4e6FedGwjSa2ygOs0dQRvPF9Lefr0mOBQarzIOooORirEsFCvbjgYu8QU4IdMuXE6A9tEMQ
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1657273695139
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

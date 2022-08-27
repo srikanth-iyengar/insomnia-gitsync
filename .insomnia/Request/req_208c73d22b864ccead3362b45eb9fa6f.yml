@@ -1,0 +1,21 @@
+_id: req_208c73d22b864ccead3362b45eb9fa6f
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1657025992734
+created: 1657025831486
+url: http://localhost:8084/toggle-unlist?id=d930bd00-fc61-11ec-9c10-affb1f50757b
+name: Toggle Unlist
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656951958994
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

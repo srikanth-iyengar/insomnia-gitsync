@@ -1,0 +1,21 @@
+_id: req_4a9ef5eeb32c4ec28f6fd1b70c42885b
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1656953976296
+created: 1656953795952
+url: http://localhost:8084/delete-contest?id=d5a976d0-fbb8-11ec-bf77-e37b47a1895b
+name: Delete Contest
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656951958944
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

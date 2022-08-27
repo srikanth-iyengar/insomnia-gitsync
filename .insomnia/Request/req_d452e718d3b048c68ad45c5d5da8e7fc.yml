@@ -1,0 +1,26 @@
+_id: req_d452e718d3b048c68ad45c5d5da8e7fc
+type: Request
+parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
+modified: 1661610344027
+created: 1657029002403
+url: http://localhost:8083/problems-and-contest/get-contests/Srikanth1777
+name: Get All Contests
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c9fddf3870454d2d93f382533c44337a
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTcmlrYW50aDE3NTciLCJyb2xlcyI6WyJVU0VSIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NTk2MDg5MDl9.V7Mf8y8--e7Ql_rVTmGV-PtXM0BD5TH4cououPy1tibJye5gYTunodht_TOfNs1IqMgnTLm9OU1tb72sjdUPYQ
+    description: ""
+authentication: {}
+metaSortKey: -1656951959044
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
