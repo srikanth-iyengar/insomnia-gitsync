@@ -1,12 +1,12 @@
 _id: req_9d1398a319224d1297a67c0fbbe854fc
 type: Request
 parentId: wrk_f3016681824846c19d2e803675b3dc49
-modified: 1659352944650
+modified: 1661685427270
 created: 1657855584595
-url: http://srikanth-airline-reservation.herokuapp.com/user/register
+url: http://localhost:8083/problems-and-contest/get-all-contest
 name: New Request
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-

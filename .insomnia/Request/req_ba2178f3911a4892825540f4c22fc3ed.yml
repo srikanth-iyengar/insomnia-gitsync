@@ -1,7 +1,7 @@
 _id: req_ba2178f3911a4892825540f4c22fc3ed
 type: Request
 parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
-modified: 1661589548057
+modified: 1662298275101
 created: 1657273179357
 url: http://localhost:8083/problems-and-contest/add-new-problem
 name: Create Problem
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"contestId":"cefba1f0-fea1-11ec-8993-ed1c72039e8d",
-    	"problemName":"Hello World srikanth!!"
+    	"contestId":"7fdcfa20-26c3-11ed-a315-dd237fcd3bc7",
+    	"problemName":"First Problem"
     }
 parameters: []
 headers:
@@ -22,8 +22,9 @@ headers:
   - id: pair_f3ed34da1d854a81be335ea980ba68a4
     name: Authorization
     value: Bearer
-      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTcmlrYW50aDE3NTciLCJyb2xlcyI6WyJVU0VSIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NTk2MDg5MDl9.V7Mf8y8--e7Ql_rVTmGV-PtXM0BD5TH4cououPy1tibJye5gYTunodht_TOfNs1IqMgnTLm9OU1tb72sjdUPYQ
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzcmlrYW50aF9oZWFkcXVhdGVycyIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE2OTUxMjJ9.CNnwG0FvcNgvJYAQprbHlqIj5ZynVuWkT4NRtI-oPZWFxJ_BdUixMsj8OLyy2U1DsJ7QvG5x7FP1PeejUcImbg
     description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1657273179357
 isPrivate: false

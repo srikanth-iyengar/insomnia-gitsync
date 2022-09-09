@@ -1,7 +1,7 @@
 _id: req_56529647f5484b8aa7cdf8b13835b6a6
 type: Request
 parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
-modified: 1661610449709
+modified: 1662727679288
 created: 1657273695139
 url: http://localhost:8083/problems-and-contest/update-problem
 name: Update Problem
@@ -9,14 +9,16 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"problemId":"0a7f6c10-fea3-11ec-8993-ed1c72039e8d",
-    	"memoryLimit": "128",
-    	"problemStatement": "Write a program that outputs hello world without quotes",
-    	"timeLimit": "2",
-    	"problemName": "alice and bob2",
-    	"testCases": 10
+    	"problemId": "2ed4c5f0-26d1-11ed-b6f0-c9fd089cf42d",
+    	"problemName": "Hello World srikanth!!",
+    	"contestId": "7fdcfa20-26c3-11ed-a315-dd237fcd3bc7",
+    	"testCases": 1,
+    	"timeLimit": 1,
+    	"memoryLimit": 128,
+    	"problemStatement": "Hello From teh outside",
+    	"score": 3000
     }
 parameters: []
 headers:
@@ -26,7 +28,7 @@ headers:
   - id: pair_6b6e309cd2894c5098020b086dc0df93
     name: Authorization
     value: Bearer
-      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTcmlrYW50aDE3NTciLCJyb2xlcyI6WyJVU0VSIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE1MTU1Mjd9.wfw6OEK2ZNwkNWc4e6FedGwjSa2ygOs0dQRvPF9Lefr0mOBQarzIOooORirEsFCvbjgYu8QU4IdMuXE6A9tEMQ
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzcmlrYW50aF9oZWFkcXVhdGVycyIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE2OTUxMjJ9.CNnwG0FvcNgvJYAQprbHlqIj5ZynVuWkT4NRtI-oPZWFxJ_BdUixMsj8OLyy2U1DsJ7QvG5x7FP1PeejUcImbg
     description: ""
     disabled: false
 authentication: {}

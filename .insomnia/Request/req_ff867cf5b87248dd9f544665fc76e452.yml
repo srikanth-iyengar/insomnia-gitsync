@@ -1,9 +1,9 @@
 _id: req_ff867cf5b87248dd9f544665fc76e452
 type: Request
 parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
-modified: 1657271435899
+modified: 1661619241115
 created: 1657270666360
-url: http://localhost:8084/delete-test-cases?problemId=lezgo&contestId=1571
+url: http://localhost:8084/delete-test-cases?contestId=4299b3b0-2628-11ed-ad95-ff2c7cce41d4&problemId=635a4100-2628-11ed-ad95-ff2c7cce41d4
 name: Delete Testcase
 description: ""
 method: DELETE

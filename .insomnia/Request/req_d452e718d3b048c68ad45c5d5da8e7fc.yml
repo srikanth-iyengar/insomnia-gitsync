@@ -1,9 +1,9 @@
 _id: req_d452e718d3b048c68ad45c5d5da8e7fc
 type: Request
 parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
-modified: 1661610344027
+modified: 1662735943893
 created: 1657029002403
-url: http://localhost:8083/problems-and-contest/get-contests/Srikanth1777
+url: http://localhost:8083/problems-and-contest/get-contests/srikanth_headquaters
 name: Get All Contests
 description: ""
 method: GET
@@ -13,7 +13,7 @@ headers:
   - id: pair_c9fddf3870454d2d93f382533c44337a
     name: Authorization
     value: Bearer
-      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTcmlrYW50aDE3NTciLCJyb2xlcyI6WyJVU0VSIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NTk2MDg5MDl9.V7Mf8y8--e7Ql_rVTmGV-PtXM0BD5TH4cououPy1tibJye5gYTunodht_TOfNs1IqMgnTLm9OU1tb72sjdUPYQ
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzcmlrYW50aF9oZWFkcXVhdGVycyIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE2MjU0MTZ9.CIBGatRJkQJgZeRE6LKV1yGBaf-QFf-MZPnCLtIAUk7nMrRo6I1gXlhYCJVJNx_r2dDlw4GpVHUc2HTvX6gySA
     description: ""
 authentication: {}
 metaSortKey: -1656951959044

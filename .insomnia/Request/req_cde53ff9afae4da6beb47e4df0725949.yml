@@ -1,12 +1,12 @@
 _id: req_cde53ff9afae4da6beb47e4df0725949
 type: Request
 parentId: fld_ff8d2bb0ee1a4903ae634dc0c191688c
-modified: 1657030215047
+modified: 1661621214436
 created: 1656179829300
-url: http://localhost:8082/register
+url: http://localhost:8083/actuator/httptrace
 name: Register
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
@@ -22,6 +22,11 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_10accfef9d164136b6dde6ae5032c366
+  - id: pair_fcc84d170f704263bce9872b686b9ffe
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzcmlrYW50aF9oZWFkcXVhdGVycyIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE2MjQ0MzZ9.htzPbwJRXw48zdMMyK9wCHt9dG97FKaqy3dqQKSmnVs9rWgGdiYrzuRJi0XszQJ2spoUKWp_0t99GOKiTgSICQ
+    description: ""
 authentication: {}
 metaSortKey: -1656179829300
 isPrivate: false

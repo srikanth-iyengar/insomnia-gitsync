@@ -1,7 +1,7 @@
 _id: req_ebcfca90232045438e72241a26314b6f
 type: Request
 parentId: fld_ff8d2bb0ee1a4903ae634dc0c191688c
-modified: 1661610302344
+modified: 1662736060892
 created: 1656676912532
 url: http://localhost:8083/register
 name: Register User
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-        "username":"Srikanth17571",
+        "username":"Srikanth11u2",
         "password":"1234",
         "firstName":"Srikanth",
         "lastName":"Iyengar",
-        "emailId":"ksrikanth2002112@gmail.com"
+        "emailId":"ksrikanth3012@gmail.com"
     }
 parameters: []
 headers:

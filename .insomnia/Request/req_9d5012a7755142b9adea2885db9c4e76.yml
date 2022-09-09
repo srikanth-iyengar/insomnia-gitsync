@@ -1,9 +1,9 @@
 _id: req_9d5012a7755142b9adea2885db9c4e76
 type: Request
 parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
-modified: 1659606414575
+modified: 1661691606411
 created: 1657214627673
-url: http://localhost:8084/upload-test-cases?contestId=cefba1f0-fea1-11ec-8993-ed1c72039e8d&problemId=0a7f6c10-fea3-11ec-8993-ed1c72039e8d
+url: http://localhost:8083/problems-and-contest/upload-test-cases?contestId=7fdcfa20-26c3-11ed-a315-dd237fcd3bc7&problemId=2ed4c5f0-26d1-11ed-b6f0-c9fd089cf42d
 name: upload testcase
 description: ""
 method: POST
@@ -21,6 +21,11 @@ headers:
   - name: Content-Type
     value: multipart/form-data
     id: pair_f6b49dbbd9b24ca68b80de3e0ca33592
+  - id: pair_ef361aafd8b84858940b532469d4ab75
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzcmlrYW50aF9oZWFkcXVhdGVycyIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE2OTUxMjJ9.CNnwG0FvcNgvJYAQprbHlqIj5ZynVuWkT4NRtI-oPZWFxJ_BdUixMsj8OLyy2U1DsJ7QvG5x7FP1PeejUcImbg
+    description: ""
 authentication: {}
 metaSortKey: -1657214627673
 isPrivate: false

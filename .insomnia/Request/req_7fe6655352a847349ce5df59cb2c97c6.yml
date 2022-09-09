@@ -1,9 +1,9 @@
 _id: req_7fe6655352a847349ce5df59cb2c97c6
 type: Request
 parentId: fld_fdbaf4bbfc954c90ba01139adaaaca66
-modified: 1661609475082
+modified: 1662298109288
 created: 1656951958894
-url: http://localhost:8084/create-contest
+url: http://localhost:8083/problems-and-contest/create-contest
 name: Create Contest
 description: ""
 method: POST
@@ -11,16 +11,22 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"contestName":"Test0",
-    	"startTime":"2022-08-27T17:03:00",
-    	"endTime":"2022-08-27T17:05:00",
-    	"username":"Srikanth1757"
+    	"contestName":"long test",
+    	"startTime":"2022-08-28T16:55:00",
+    	"endTime":"2022-11-28T17:11:00",
+    	"username":"srikanth_headquaters"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_fce1d892bc4e4f3d8560cede3212d837
+  - id: pair_86a77e95c37742d58a1bd4bae308feba
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzcmlrYW50aF9oZWFkcXVhdGVycyIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjE2ODkxOTV9.Cdb873O7VPk7yqVNMtGXoyhpKE4S-CjyJyEyVpFjoB0I1zNhKbOAKIR5ZeMBrq0mP95l_VXzuaNHuuUj6DmEJQ
+    description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1656951958894
 isPrivate: false
