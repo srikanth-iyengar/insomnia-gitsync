@@ -1,0 +1,26 @@
+_id: req_e931db6f6f274db88c977c509e5eafea
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1663342113083
+created: 1663313236955
+url: http://54.147.241.2:8080/get-upload-url?filename=sample.pdf&documentType=aadhar
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e7906ea2e52c47afaee11c44bc7e8dbb
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrc3Jpa2FudGgxNzc3QGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjMzNDU1ODJ9.BDYruNLRRaaZziBqP8DARXbiuotvflwR6NrE1ME_vJKd5PemWXG-X5KR9Vi0rzpb7llyVKaYzmflU_UYNnbaEw
+    description: ""
+authentication: {}
+metaSortKey: -1663313236955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

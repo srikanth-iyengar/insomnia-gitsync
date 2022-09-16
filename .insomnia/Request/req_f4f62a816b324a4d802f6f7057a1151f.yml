@@ -1,0 +1,21 @@
+_id: req_f4f62a816b324a4d802f6f7057a1151f
+type: Request
+parentId: fld_ff8d2bb0ee1a4903ae634dc0c191688c
+modified: 1662737782643
+created: 1662734515401
+url: http://localhost:8083/activate?token=60277aaa8dc146a29d8322982af71f47&username=Srikanth11u2
+name: Activate Account
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656179829450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

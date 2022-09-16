@@ -1,0 +1,36 @@
+_id: req_81291cd87fd04f8795b7e85be167ea21
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1663342100272
+created: 1663255238948
+url: http://localhost:8080/admissionform/createform
+name: Create Form
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "B-Tech-Admission-Round1-2022-23",
+    	"startTime": "2022-09-16T10:32:28.483388500",
+    	"endTime": "2022-09-16T12:29:35.789123100"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8018868da9e2484896e6d6cb178984cb
+  - id: pair_7899bb61b3544699b12b3e24e536314c
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrc3Jpa2FudGgxNzc3QGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjMzMDc4NTJ9.tdaopolH7P9dyu76UUvSGRNvLyP5RnxEZ79i5JSpYo2tb8fp04Qp3jOqWwyY39H2009eXWg9J3yef1DFK-sdBQ
+    description: ""
+authentication: {}
+metaSortKey: -1663255238948
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

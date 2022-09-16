@@ -1,0 +1,33 @@
+_id: req_5f3eb4c494854f1ab465f5620f78c74e
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1663342126089
+created: 1663321564270
+url: https://srikanthadmission.s3.ap-south-1.amazonaws.com//user/users/ksrikanth1777gmail.comaadharsample.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWVUOXOYXLGICRCGF%2F20220916%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20220916T152835Z&X-Amz-Expires=86400&X-Amz-Signature=7f23802525eb910c8d2f02aa180627f0d8deaebfad49b4ea64604fbe1fe7be7e&X-Amz-SignedHeaders=host
+name: New Request
+description: ""
+method: PUT
+body:
+  mimeType: application/octet-stream
+  fileName: C:\Users\Dell\Downloads\SRS_SE_EXPT1.docx.pdf
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/pdf
+    id: pair_5f93836ba14a4fa39f27b1bf86575fd5
+    disabled: true
+  - id: pair_87e5f8f935764a1fb53d0c0dfedf805e
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrc3Jpa2FudGgxNzc3QGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjMzMjU5MzV9.cmGr1JLO6IG4uInLNpkg3XxWBfbDEX1BMRuGuNqXrDAxgzPqNFWqAOyOxhue7CU5pxVcMH6fttrrgfRhljW4YA
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1663321564270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_3b4e7e9d081542bd94ca1f1e91724498
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1663342017942
+created: 1663226923967
+url: http://54.147.241.2:8080/admissionform/get-all-forms
+name: Get All Forms
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_648ed930b9b24dc3932f160985c120cb
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrc3Jpa2FudGgxNzc3QGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjMzNDU1ODJ9.BDYruNLRRaaZziBqP8DARXbiuotvflwR6NrE1ME_vJKd5PemWXG-X5KR9Vi0rzpb7llyVKaYzmflU_UYNnbaEw
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1663226923967
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

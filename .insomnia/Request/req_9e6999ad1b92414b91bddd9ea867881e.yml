@@ -1,0 +1,100 @@
+_id: req_9e6999ad1b92414b91bddd9ea867881e
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1663342082189
+created: 1663234659841
+url: http://54.147.241.2:8080/user/submitform/B-Tech-Admission-Round1-2022-23
+name: Submit form
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "personalInformation": {
+            "emailId": "srikanth.k@spit.ac.in.com",
+            "password": "1234",
+            "firstName": "Srikanth",
+            "middleName": "Kannan",
+            "lastName": "Iyengar",
+            "dateOfBirth": "2022-09-15",
+            "gender":"MALE",
+            "stateOfDomicile":"Maharashtra",
+            "mobileNumber":"9653233005",
+            "religion":"Hindu",
+            "motherTongue": "Tamil",
+            "quotaType": "Open",
+            "category": "General",
+            "arcApplicationId":"EN20122222",
+            "stateGeneralMeritNo": "2022",
+            "jeeAllIndiaMeritNumber":"120"
+        },
+        "residenceInformation": {
+                "residanceAddress": "SPIT",
+                "residenceCountry": "India",
+                "residenceState":"Maharashtra",
+                "residenceCity":"Mumbai",
+                "residencePincode":"421202",
+                "residenceTaluka":"Kalyan",
+                "residenceDistrict":"Thane"
+        },
+    	"permanentAddressInformation": {
+    		"permanentAddress": "SPIT1",
+    		"permanentCountry": "India",
+    		"permanentState": "Maharashtra",
+    		"permanentCity": "Mumbai",
+    		"permanentPincode": "421202",
+    		"permanentTaluka": "Kalyan",
+    		"permanentDistrict": "Thane"
+    	},
+    	"parentDetails": {
+    		
+    	},
+    	"hscDetails": {
+    		"marksObtained": "889",
+    		"totalMarks": "1000",
+    		"yearOfPassing": "2022",
+    		"physics": {
+    			"marksObtained": 10,
+    			"maxMarks": 100
+    		},
+    		"chemistry": {
+    			"marksObtained": 10,
+    			"maxMarks": 100
+    		},
+    		"mathematics": {
+    			"marksObtained": 10,
+    			"maxMarks": 100
+    		},
+    		"vocationalSubject": {
+    			"marksObtained": 10,
+    			"maxMarks": 100
+    		}
+    	},
+    	"entranceDetails": {
+    		
+    	},
+    	"documentUrl": {
+    		
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5c1fde48e793498990b2fc3884c19ced
+  - id: pair_e8ef8d32d2ee40bda23dfedcd588fcc8
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrc3Jpa2FudGgxNzc3QGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIl0sImlzcyI6IlNyaWthbnRoIEl5ZW5nYXIiLCJleHAiOjE2NjMzNDU1ODJ9.BDYruNLRRaaZziBqP8DARXbiuotvflwR6NrE1ME_vJKd5PemWXG-X5KR9Vi0rzpb7llyVKaYzmflU_UYNnbaEw
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1663234659841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

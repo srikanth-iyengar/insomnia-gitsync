@@ -1,0 +1,30 @@
+_id: req_a769e0c2b76d429a9d11f300f9648d8f
+type: Request
+parentId: wrk_f3016681824846c19d2e803675b3dc49
+modified: 1663342149088
+created: 1663217265133
+url: http://54.147.241.2:8080/authenticate
+name: Authenticate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "ksrikanth1777@gmail.com",
+    	"password": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e15a3509e7874a2d9dedac80ef1f450f
+authentication: {}
+metaSortKey: -1663217265134
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
